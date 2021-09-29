@@ -1,9 +1,16 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div>
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/maps">Maps</router-link> |
+      <router-link to="/characters">Characters</router-link> |
+      <router-link to="/rooms">Rooms</router-link> |
+      <router-link to="/weapons">Weapons</router-link> |
+      <router-link to="/users">Users</router-link> |
+      <router-link to="/about">About</router-link>
+    </div>
+    <router-view />
   </div>
-  <router-view />
 </template>
 
 <style lang="scss">
